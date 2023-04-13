@@ -1,0 +1,94 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+body {
+  background-color: #f6f8fa;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  font: #6497B1;
+}
+
+
+
+
+
+@media (min-width: 375px) {
+  
+    
+  #scrolling_section {
+     width: 100%;
+    
+  }
+
+
+    /*1rem = 16px*/
+}
+
+
+
+@media (min-width: 410px) {
+    
+  #scrolling_section {
+     width: 100%;
+    
+  }
+
+}
+
+
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+    
+  #scrolling_section {
+     width: 100%;
+     
+  }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    
+  #scrolling_section {
+    width: 100%;
+    }
+  #body_wrapper {
+    width: 90%
+  }
+    /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    
+  #scrolling_section {
+     width: 67%;
+  }
+    #body_wrapper {
+    width: 90%
+  }
+
+
+    /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #scrolling_section {
+       width: 67%;
+  }
+  #body_wrapper {
+    width: 90%
+  }
+
+    /*1rem = 16px*/
+}
+
